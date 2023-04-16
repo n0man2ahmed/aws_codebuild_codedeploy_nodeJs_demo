@@ -2,7 +2,7 @@ version: 0.2
 run-as: root
 
 phases:
-
+ 
   install:
     commands:
       - echo Installing app dependencies...
