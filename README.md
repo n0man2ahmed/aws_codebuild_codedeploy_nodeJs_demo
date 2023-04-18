@@ -9,6 +9,7 @@ Deployment related scripts are in deployment_scripts directory, check appspec.ym
 This is a node.js project same, but change config as per your project requirement 
 
 
+!!
 In codebuild.yml file in post build phase, line:
       - aws deploy push --application-name "${CODE_DEPLOY_APPLICATION_NAME}" --s3-location "s3://${CODE_DEPLOY_S3_BUCKET}/codedeploydemo/app.zip" --ignore-hidden-files --region us-west-2
 
